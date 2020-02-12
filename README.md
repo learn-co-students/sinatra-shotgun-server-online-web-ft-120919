@@ -50,7 +50,7 @@ When you start an application with `shotgun`, all of your application code will 
 ## Installing Shotgun
 
 You can install Shotgun via `gem install shotgun`. You should also require it in an application's `Gemfile` so that you can install it and load it via Bundler. Shotgun is already in your gemfile, so go ahead and enter `bundle install` in terminal if you haven't already.
-
+  
 ## Starting and Stopping Shotgun
 
 Within a Rack or Sinatra application directory, you can start the application via Shotgun by simply executing `shotgun` in your terminal. You should see something like:
